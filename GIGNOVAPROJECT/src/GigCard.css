@@ -1,0 +1,89 @@
+.gig-card {
+  background: #fff9ed;
+  border: 1px solid #e1e8df;
+  border-radius: 15px;
+  padding: 22px;
+  transition: 0.25s;
+}
+
+.gig-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(53, 94, 59, 0.12);
+}
+
+.gig-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.gig-category {
+  background: #cfe8d5;
+  color: #355e3b;
+  padding: 6px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.gig-budget {
+  color: #355e3b;
+  font-weight: 800;
+}
+
+.gig-card h3 {
+  color: #26382b;
+  margin: 18px 0 10px;
+  font-size: 20px;
+}
+
+.gig-description {
+  color: #68746b;
+  line-height: 1.6;
+  font-size: 14px;
+  min-height: 45px;
+}
+
+.gig-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin: 18px 0;
+}
+
+.gig-skills span {
+  background: #f4eedc;
+  color: #536356;
+  padding: 5px 9px;
+  border-radius: 6px;
+  font-size: 12px;
+}
+
+.gig-card-bottom {
+  border-top: 1px solid #e4e9e2;
+  padding-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.gig-user {
+  color: #68746b;
+  font-size: 13px;
+}
+
+.gig-card-bottom button {
+  border: none;
+  background: #355e3b;
+  color: white;
+  padding: 9px 13px;
+  border-radius: 7px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.gig-card-bottom button:hover {
+  background: #294b2e;
+}

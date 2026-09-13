@@ -1,0 +1,126 @@
+.post-page {
+  min-height: 80vh;
+  background: #fff9ed;
+}
+
+.post-header {
+  text-align: center;
+  background: #cfe8d5;
+  padding: 60px 7%;
+}
+
+.post-header span {
+  color: #355e3b;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+}
+
+.post-header h1 {
+  color: #26382b;
+  font-size: 44px;
+  margin: 12px 0;
+}
+
+.post-header p {
+  color: #536356;
+}
+
+.post-content {
+  max-width: 850px;
+  width: 90%;
+  margin: 45px auto;
+}
+
+.post-form-card {
+  background: white;
+  border: 1px solid #e0e7df;
+  border-radius: 18px;
+  padding: 35px;
+  box-shadow: 0 8px 25px rgba(53, 94, 59, 0.06);
+}
+
+.post-form-card h2 {
+  color: #355e3b;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.post-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.post-field {
+  margin-bottom: 20px;
+}
+
+.post-field label {
+  display: block;
+  margin-bottom: 8px;
+  color: #355e3b;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.post-field input,
+.post-field select,
+.post-field textarea {
+  width: 100%;
+  padding: 13px;
+  border: 1px solid #d6dfd5;
+  border-radius: 8px;
+  background: #fffdf8;
+  color: #26382b;
+  outline: none;
+  font-size: 14px;
+}
+
+.post-field input:focus,
+.post-field select:focus,
+.post-field textarea:focus {
+  border-color: #7da886;
+}
+
+.post-field textarea {
+  min-height: 130px;
+  resize: vertical;
+}
+
+.post-field small {
+  display: block;
+  color: #7b867d;
+  margin-top: 5px;
+}
+
+.post-submit {
+  width: 100%;
+  border: none;
+  background: #355e3b;
+  color: white;
+  padding: 14px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.post-submit:hover {
+  background: #294b2e;
+}
+
+@media (max-width: 650px) {
+  .post-row {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .post-form-card {
+    padding: 22px;
+  }
+
+  .post-header h1 {
+    font-size: 35px;
+  }
+}
